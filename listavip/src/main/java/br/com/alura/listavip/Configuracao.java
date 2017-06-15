@@ -18,10 +18,10 @@ public class Configuracao {
 	public DataSource dataSource(){
 		
 		DriverManagerDataSource dataSource = new DriverManagerDataSource();
-		dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-		dataSource.setUrl("jdbc:mysql://localhost:3306/listavip");
-		dataSource.setUsername("root");
-		dataSource.setPassword("root");
+	    dataSource.setDriverClassName("com.mysql.jdbc.Driver");
+	    dataSource.setUrl("jdbc:mysql://localhost:3306/listavip");
+	    dataSource.setUsername("root");
+	    dataSource.setPassword("root");;
 		
 		return dataSource;
 	}
