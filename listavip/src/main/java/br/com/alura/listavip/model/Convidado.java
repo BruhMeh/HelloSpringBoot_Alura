@@ -10,11 +10,22 @@ public class Convidado {
 	@GeneratedValue
 	private Long id;
 	
+
 	private String nome;
 	
 	private String email;
 	
 	private String telefone;
+	
+	public Convidado() {
+	}
+	
+	public Convidado(String nome, String email, String telefone) {
+		super();
+		this.nome = nome;
+		this.email = email;
+		this.telefone = telefone;
+	}
 	
 	public Long getId() {
 		return id;
